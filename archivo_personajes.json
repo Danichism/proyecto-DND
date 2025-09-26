@@ -1,0 +1,36 @@
+[
+    
+    {
+        "Nombre": "Gale",
+        "Raza": "Humano",
+        "Clase": {
+            "Nombre": "Brujo",
+            "Dado_de_golpe": 8
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 14,
+            "Destreza": 15,
+            "Constitución": 16,
+            "Inteligencia": 17,
+            "Sabiduría": 18,
+            "Carisma": 7
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 2,
+            "Destreza": 2,
+            "Constitución": 3,
+            "Inteligencia": 3,
+            "Sabiduría": 4,
+            "Carisma": -2
+        },
+        "Arma equipada": {
+            "Nombre": "Daga",
+            "Daño": {
+                "Cortante": 6,
+                "Veneno": 8,
+                "Radiante": 16
+            },
+            "Peso": 2
+        }
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "Nombre": "Espadón",
+        "Daño": {
+            "Cortante": 3
+        },
+        "Peso": 5
+    },
+    {
+        "Nombre": "Hacha de la muerte",
+        "Daño": {
+            "Cortante": 6,
+            "Fuego": 4
+        },
+        "Peso": 4
+    },
+    {
+        "Nombre": "Daga",
+        "Daño": {
+            "Cortante": 6,
+            "Veneno": 8,
+            "Radiante": 16
+        },
+        "Peso": 2
+    },
+    {
+        "Nombre": "Arco",
+        "Daño": {
+            "Radiante": 6,
+            "Veneno": 9
+        },
+        "Peso": 2
+    },
+    {
+        "Nombre": "Mayal de la fortuna",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Contundente": 6,
+            "Fuego": 4,
+            "Radiante": 4
+        },
+        "Peso": 6
+    },
+    {
+        "Nombre": "Lanza de la desolación",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Perforante": 8,
+            "Hielo": 4,
+            "Radiante": 4
+        },
+        "Peso": 6
+    }
+]

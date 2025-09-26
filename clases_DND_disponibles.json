@@ -1,0 +1,18 @@
+[
+    {
+        "Nombre": "Bárbaro",
+        "Dado_de_golpe": 12
+    },
+    {
+        "Nombre": "Bardo",
+        "Dado_de_golpe": 8
+    },
+    {
+        "Nombre": "Brujo",
+        "Dado_de_golpe": 8
+    },
+    {
+        "Nombre": "Clérigo",
+        "Dado_de_golpe": 8
+    }
+]
