@@ -1,0 +1,7 @@
+# Ignorar archivos compilados de Python y directorios de caché
+*.pyc
+__pycache__/
+
+# Ignorar logs, datos temporales o de entorno (opcional)
+*.log
+.DS_Store
