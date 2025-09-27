@@ -1,27 +1,63 @@
 [
-    
+    {
+        "Nombre": "Laezel",
+        "Raza": "Elfo",
+        "Clase": {
+            "Nombre": "Bárbaro",
+            "Dado_de_golpe": 12
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 18,
+            "Destreza": 17,
+            "Constitución": 16,
+            "Inteligencia": 15,
+            "Sabiduría": 14,
+            "Carisma": 13
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 4,
+            "Destreza": 3,
+            "Constitución": 3,
+            "Inteligencia": 2,
+            "Sabiduría": 2,
+            "Carisma": 1
+        },
+        "Arma equipada": {
+            "Nombre": "Espadón",
+            "Daño": {
+                "Cortante": 3
+            },
+            "Peso": 5
+        },
+        "Armadura equipada": {
+            "nombre": " Saco de papas",
+            "tipo_armadura": "Ligera",
+            "clase_armadura": 1,
+            "lista_resistencias": []
+        }
+    },
     {
         "Nombre": "Gale",
         "Raza": "Humano",
         "Clase": {
-            "Nombre": "Brujo",
+            "Nombre": "Clérigo",
             "Dado_de_golpe": 8
         },
         "Puntuación de las caracterisicas": {
-            "Fuerza": 14,
-            "Destreza": 15,
-            "Constitución": 16,
-            "Inteligencia": 17,
-            "Sabiduría": 18,
-            "Carisma": 7
+            "Fuerza": 12,
+            "Destreza": 13,
+            "Constitución": 14,
+            "Inteligencia": 15,
+            "Sabiduría": 16,
+            "Carisma": 17
         },
         "Bonificacion por caracteristicas": {
-            "Fuerza": 2,
-            "Destreza": 2,
-            "Constitución": 3,
-            "Inteligencia": 3,
-            "Sabiduría": 4,
-            "Carisma": -2
+            "Fuerza": 1,
+            "Destreza": 1,
+            "Constitución": 2,
+            "Inteligencia": 2,
+            "Sabiduría": 3,
+            "Carisma": 3
         },
         "Arma equipada": {
             "Nombre": "Daga",
@@ -31,6 +67,62 @@
                 "Radiante": 16
             },
             "Peso": 2
+        },
+        "Armadura equipada": {
+            "nombre": "Camisa de malla",
+            "tipo_armadura": "Intermedia",
+            "clase_armadura": 4,
+            "lista_resistencias": [
+                "Frío"
+            ]
+        }
+    },
+    {
+        "Nombre": "shadow Heart",
+        "Raza": "Elfo",
+        "Clase": {
+            "Nombre": "Clérigo",
+            "Dado_de_golpe": 8
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 18,
+            "Destreza": 18,
+            "Constitución": 18,
+            "Inteligencia": 17,
+            "Sabiduría": 16,
+            "Carisma": 15
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 4,
+            "Destreza": 4,
+            "Constitución": 4,
+            "Inteligencia": 3,
+            "Sabiduría": 3,
+            "Carisma": 2
+        },
+        "Arma equipada": {
+            "Nombre": "Lanza de la desolación",
+            "Clase de arma": "Marcial",
+            "Daño": {
+                "Perforante": 8,
+                "Hielo": 4,
+                "Radiante": 4
+            },
+            "Peso": 6
+        },
+        "Armadura equipada": {
+            "nombre": "Cota de malla",
+            "tipo_armadura": "Pesada",
+            "clase_armadura": 5,
+            "lista_resistencias": [
+                "Cortante",
+                "Perforante",
+                "Contundente",
+                "Veneno",
+                "Radiante",
+                "Frío",
+                "Fuego"
+            ]
         }
     }
 ]

@@ -1,4 +1,4 @@
-import Armaduras
+import armaduras
 import funciones_auxiliares
 import json
 

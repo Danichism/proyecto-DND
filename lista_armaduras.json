@@ -36,5 +36,11 @@
         "lista_resistencias": [
             "Frío"
         ]
+    },
+    {
+        "nombre": " Saco de papas",
+        "tipo_armadura": "Ligera",
+        "clase_armadura": 1,
+        "lista_resistencias": []
     }
 ]

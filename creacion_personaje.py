@@ -2,6 +2,7 @@ import funciones_auxiliares
 import modulo_armas
 import random
 import clases
+import armaduras
 
 #-----------------------Funciones propias para la creación de persoanjes----------------
 
@@ -13,7 +14,9 @@ def crear_personaje():
     diccionario_puntuacion_caracteristicas=puntuar_caracteristicas()
     diccionario_bonificadores_caracteristicas=bonificaciones_caracteristicas(diccionario_puntuacion_caracteristicas)
     arma_equipada=equipar_arma()
-    return{"Nombre":nombre, "Raza":raza, "Clase":clase, "Puntuación de las caracterisicas": diccionario_puntuacion_caracteristicas, "Bonificacion por caracteristicas":diccionario_bonificadores_caracteristicas, "Arma equipada": arma_equipada}
+    armadura_equipada=armaduras.seleccionar_armadura()
+    return{"Nombre":nombre, "Raza":raza, "Clase":clase, "Puntuación de las caracterisicas": diccionario_puntuacion_caracteristicas,
+           "Bonificacion por caracteristicas":diccionario_bonificadores_caracteristicas, "Arma equipada": arma_equipada, "Armadura equipada":armadura_equipada}
 
 
 
@@ -54,7 +57,9 @@ class Personaje:
         self.puntuacion_caracteristicas=diccionario_caracteristicas["Puntuación de las caracterisicas"]
         self.bonificacion_caracteristicas=diccionario_caracteristicas["Bonificacion por caracteristicas"]
         self.arma_equipada=modulo_armas.Arma.from_dict(diccionario_caracteristicas["Arma equipada"])
+        self.armadura_equipada=armaduras.ArmaduraBase.from_dict(diccionario_caracteristicas["Armadura equipada"])
         self.puntos_de_golpe=self.bonificacion_caracteristicas["Constitución"]+self.clase.dado_de_golpe
+        self.clase_de_armadura=10+self.armadura_equipada.clase_armadura+self.bonificacion_caracteristicas["Destreza"]
 
     def __str__(self):
         return self.nombre
@@ -91,15 +96,18 @@ class Personaje:
 
 if __name__=="__main__":
 
-   # añadir_personaje_a_archivo()
+    #añadir_personaje_a_archivo()
+    
     
     lista_personajes=funciones_auxiliares.cargar_archivo("archivo_personajes.json", "el archivo no existe", "El archivo está dañado")
     mi_personaje=funciones_auxiliares.crear_menu_por_nombre(lista_personajes, "Nombre", "Elige el personaje")
     personaje=Personaje.from_dict(mi_personaje)
     print (f"{personaje} lleva equipada {personaje.arma_equipada}")
     print (f"{personaje} tiene { personaje.puntos_de_golpe} puntos de golpe")
+    print (f"La clase de armadura de {personaje} es { personaje.clase_de_armadura}")
     print (personaje.arma_equipada.calcular_daño())
     print (f"La clase de {personaje} es {personaje.clase}")
+    print (f"La armadura es resistente a {personaje.armadura_equipada.resistencias}")
 
     """ lista_personajes=funciones_auxiliares.cargar_archivo("archivo_personajes.json", "el archivo no existe", "El archivo está dañado")
     mi_enemigo=funciones_auxiliares.crear_menu_por_nombre(lista_personajes, "Nombre", "Elige el enemigo")
