@@ -1,0 +1,46 @@
+[
+    {
+        "nombre": "Coraza",
+        "tipo_armadura": "Intermedia",
+        "clase_armadura": 5,
+        "lista_resistencias": [
+            "Perforante"
+        ]
+    },
+    {
+        "nombre": "Cota de malla",
+        "tipo_armadura": "Pesada",
+        "clase_armadura": 7,
+        "lista_resistencias": [
+            "Cortante",
+            "Perforante",
+            "Contundente",
+            "Veneno",
+            "Radiante",
+            "Frío",
+            "Fuego"
+        ]
+    },
+    {
+        "nombre": "Cuero tachonado",
+        "tipo_armadura": "Ligera",
+        "clase_armadura": 1,
+        "lista_resistencias": [
+            "Frío"
+        ]
+    },
+    {
+        "nombre": "Camisa de malla",
+        "tipo_armadura": "Intermedia",
+        "clase_armadura": 4,
+        "lista_resistencias": [
+            "Frío"
+        ]
+    },
+    {
+        "nombre": " Saco de papas",
+        "tipo_armadura": "Ligera",
+        "clase_armadura": 1,
+        "lista_resistencias": []
+    }
+]

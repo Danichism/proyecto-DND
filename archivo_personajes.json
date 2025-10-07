@@ -1,0 +1,130 @@
+[
+    {
+        "Nombre": "Drizz",
+        "Raza": "Elfo",
+        "Clase": {
+            "Nombre": "Bardo",
+            "Dado_de_golpe": 8
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 17,
+            "Destreza": 16,
+            "Constitución": 15,
+            "Inteligencia": 16,
+            "Sabiduría": 14,
+            "Carisma": 16
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 3,
+            "Destreza": 3,
+            "Constitución": 2,
+            "Inteligencia": 3,
+            "Sabiduría": 2,
+            "Carisma": 3
+        },
+        "Arma equipada": {
+            "Nombre": "Daga",
+            "tipo_de_arma": "Cuerpo a cuerpo",
+            "Clase de arma": "Sencilla",
+            "Daño": {
+                "Cortante": 4
+            },
+            "Peso": 2,
+            "Sutil": true
+        },
+        "Armadura equipada": {
+            "nombre": "Coraza",
+            "tipo_armadura": "Intermedia",
+            "clase_armadura": 5,
+            "lista_resistencias": [
+                "Perforante"
+            ]
+        }
+    },
+    {
+        "Nombre": "Artemis entreri",
+        "Raza": "Humano",
+        "Clase": {
+            "Nombre": "Bárbaro",
+            "Dado_de_golpe": 12
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 16,
+            "Destreza": 17,
+            "Constitución": 18,
+            "Inteligencia": 12,
+            "Sabiduría": 13,
+            "Carisma": 14
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 3,
+            "Destreza": 3,
+            "Constitución": 4,
+            "Inteligencia": 1,
+            "Sabiduría": 1,
+            "Carisma": 2
+        },
+        "Arma equipada": {
+            "Nombre": "Arco largo",
+            "tipo_de_arma": "A distancia",
+            "Clase de arma": "Marcial",
+            "Daño": {
+                "Perforante": 8
+            },
+            "Peso": 2,
+            "Alcance": 24
+        },
+        "Armadura equipada": {
+            "nombre": "Coraza",
+            "tipo_armadura": "Intermedia",
+            "clase_armadura": 5,
+            "lista_resistencias": [
+                "Perforante"
+            ]
+        }
+    },
+    {
+        "Nombre": "Laezel",
+        "Raza": "Humano",
+        "Clase": {
+            "Nombre": "Bárbaro",
+            "Dado_de_golpe": 12
+        },
+        "Puntuación de las caracterisicas": {
+            "Fuerza": 18,
+            "Destreza": 18,
+            "Constitución": 18,
+            "Inteligencia": 12,
+            "Sabiduría": 12,
+            "Carisma": 12
+        },
+        "Bonificacion por caracteristicas": {
+            "Fuerza": 4,
+            "Destreza": 4,
+            "Constitución": 4,
+            "Inteligencia": 1,
+            "Sabiduría": 1,
+            "Carisma": 1
+        },
+        "Arma equipada": {
+            "Nombre": "Hacha de los dioses",
+            "tipo_de_arma": "Cuerpo a cuerpo",
+            "Clase de arma": "Marcial",
+            "Daño": {
+                "Cortante": 16,
+                "Radiante": 12,
+                "Hielo": 10
+            },
+            "Peso": 3,
+            "Sutil": false
+        },
+        "Armadura equipada": {
+            "nombre": "Coraza",
+            "tipo_armadura": "Intermedia",
+            "clase_armadura": 5,
+            "lista_resistencias": [
+                "Perforante"
+            ]
+        }
+    }
+]

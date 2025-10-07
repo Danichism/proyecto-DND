@@ -1,0 +1,74 @@
+[
+    {
+        "Nombre": "Daga",
+        "tipo_de_arma": "Cuerpo a cuerpo",
+        "Clase de arma": "Sencilla",
+        "Daño": {
+            "Cortante": 4
+        },
+        "Peso": 2,
+        "Sutil": true
+    },
+    {
+        "Nombre": "Arco",
+        "tipo_de_arma": "A distancia",
+        "Clase de arma": "Sencilla",
+        "Daño": {
+            "Perforante": 6
+        },
+        "Peso": 1,
+        "Alcance": 18
+    },
+    {
+        "Nombre": "Espada",
+        "tipo_de_arma": "Cuerpo a cuerpo",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Cortante": 6
+        },
+        "Peso": 3,
+        "Sutil": false
+    },
+    {
+        "Nombre": "Ballesta de mano",
+        "tipo_de_arma": "A distancia",
+        "Clase de arma": "Sencilla",
+        "Daño": {
+            "Perforante": 4
+        },
+        "Peso": 1,
+        "Alcance": 18
+    },
+    {
+        "Nombre": "Maza de combate",
+        "tipo_de_arma": "Cuerpo a cuerpo",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Contundente": 10
+        },
+        "Peso": 5,
+        "Sutil": false
+    },
+    {
+        "Nombre": "Arco largo",
+        "tipo_de_arma": "A distancia",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Perforante": 8
+        },
+        "Peso": 2,
+        "Alcance": 24
+    },
+    {
+        "Nombre": "Hacha de los dioses",
+        "tipo_de_arma": "Cuerpo a cuerpo",
+        "Clase de arma": "Marcial",
+        "Daño": {
+            "Cortante": 16,
+            "Radiante": 12,
+            "Hielo": 10
+        },
+        "Peso": 3,
+        "Sutil": false
+    }
+]
